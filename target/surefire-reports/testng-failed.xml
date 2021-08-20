@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="PasswordManagerTests.LoginTest">
+        <methods>
+          <include name="emptyUsernameFieldTest"/>
+          <include name="invalidUsernameTest"/>
+          <include name="tearDown"/>
+          <include name="emptyPasswordFieldTest"/>
+          <include name="validtest"/>
+          <include name="setup"/>
+          <include name="invalidPasswordTest"/>
+        </methods>
+      </class> <!-- PasswordManagerTests.LoginTest -->
+      <class name="PasswordManagerTests.RegistrationTest">
+        <methods>
+          <include name="validtest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="AllreadyExitTest"/>
+          <include name="emptyPasswordFieldTest"/>
+          <include name="invalidFullnameTest"/>
+          <include name="invalidLengthPasswordTest"/>
+          <include name="invalidTest"/>
+          <include name="invalidUsernameTest"/>
+          <include name="emptyUsernameFieldTest"/>
+          <include name="invalidUerPassTest"/>
+        </methods>
+      </class> <!-- PasswordManagerTests.RegistrationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

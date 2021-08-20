@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="29" passed="24" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-20T09:52:31 IST" name="Suite" finished-at="2021-08-20T09:52:52 IST" duration-ms="20646">
+    <groups>
+    </groups>
+    <test started-at="2021-08-20T09:52:31 IST" name="Test" finished-at="2021-08-20T09:52:52 IST" duration-ms="20646">
+      <class name="TestSuiteOnExtentReport.BeforeAfterSuiteRepresent">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestSuiteOnExtentReport.BeforeAfterSuiteRepresent@6cd28fa7]" started-at="2021-08-20T09:52:31 IST" name="setUp" finished-at="2021-08-20T09:52:31 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestSuiteOnExtentReport.BeforeAfterSuiteRepresent@6cd28fa7]" started-at="2021-08-20T09:52:52 IST" name="tearDown" finished-at="2021-08-20T09:52:52 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestSuiteOnExtentReport.BeforeAfterSuiteRepresent -->
+      <class name="PasswordManagerTests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PasswordManagerTests.LoginTest@6fd83fc1]" started-at="2021-08-20T09:52:36 IST" name="setup" finished-at="2021-08-20T09:52:37 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickTest()[pri:0, instance:PasswordManagerTests.LoginTest@6fd83fc1]" started-at="2021-08-20T09:52:39 IST" name="ClickTest" finished-at="2021-08-20T09:52:39 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickTest -->
+        <test-method signature="emptyPasswordFieldTest()[pri:0, instance:PasswordManagerTests.LoginTest@6fd83fc1]" started-at="2021-08-20T09:52:42 IST" name="emptyPasswordFieldTest" finished-at="2021-08-20T09:52:42 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordFieldTest -->
+        <test-method signature="emptyUsernameFieldTest()[pri:0, instance:PasswordManagerTests.LoginTest@6fd83fc1]" started-at="2021-08-20T09:52:43 IST" name="emptyUsernameFieldTest" finished-at="2021-08-20T09:52:43 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameFieldTest -->
+        <test-method signature="invalidPasswordTest()[pri:0, instance:PasswordManagerTests.LoginTest@6fd83fc1]" started-at="2021-08-20T09:52:45 IST" name="invalidPasswordTest" finished-at="2021-08-20T09:52:45 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method signature="invalidUsernameTest()[pri:0, instance:PasswordManagerTests.LoginTest@6fd83fc1]" started-at="2021-08-20T09:52:46 IST" name="invalidUsernameTest" finished-at="2021-08-20T09:52:46 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PasswordManagerTests.LoginTest@6fd83fc1]" started-at="2021-08-20T09:52:51 IST" name="tearDown" finished-at="2021-08-20T09:52:51 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PasswordManagerTests.LoginTest -->
+      <class name="PasswordManagerTests.EditCredentialTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PasswordManagerTests.EditCredentialTest@1b2abca6]" started-at="2021-08-20T09:52:34 IST" name="setup" finished-at="2021-08-20T09:52:36 IST" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MaxLengthWebsiteData()[pri:1, instance:PasswordManagerTests.EditCredentialTest@1b2abca6]" started-at="2021-08-20T09:52:46 IST" name="MaxLengthWebsiteData" finished-at="2021-08-20T09:52:47 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxLengthWebsiteData -->
+        <test-method signature="ExceedLengthWebsiteData()[pri:2, instance:PasswordManagerTests.EditCredentialTest@1b2abca6]" started-at="2021-08-20T09:52:47 IST" name="ExceedLengthWebsiteData" finished-at="2021-08-20T09:52:47 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExceedLengthWebsiteData -->
+        <test-method signature="UpdateWebsiteData()[pri:3, instance:PasswordManagerTests.EditCredentialTest@1b2abca6]" started-at="2021-08-20T09:52:47 IST" name="UpdateWebsiteData" finished-at="2021-08-20T09:52:48 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateWebsiteData -->
+        <test-method signature="UpdateUsername()[pri:4, instance:PasswordManagerTests.EditCredentialTest@1b2abca6]" started-at="2021-08-20T09:52:48 IST" name="UpdateUsername" finished-at="2021-08-20T09:52:49 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUsername -->
+        <test-method signature="UpdatePassword()[pri:5, instance:PasswordManagerTests.EditCredentialTest@1b2abca6]" started-at="2021-08-20T09:52:49 IST" name="UpdatePassword" finished-at="2021-08-20T09:52:49 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePassword -->
+        <test-method signature="UpdateWebsiteURL()[pri:6, instance:PasswordManagerTests.EditCredentialTest@1b2abca6]" started-at="2021-08-20T09:52:49 IST" name="UpdateWebsiteURL" finished-at="2021-08-20T09:52:50 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateWebsiteURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PasswordManagerTests.EditCredentialTest@1b2abca6]" started-at="2021-08-20T09:52:50 IST" name="tearDown" finished-at="2021-08-20T09:52:51 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PasswordManagerTests.EditCredentialTest -->
+      <class name="PasswordManagerTests.AddCredentialTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PasswordManagerTests.AddCredentialTest@209da20d]" started-at="2021-08-20T09:52:31 IST" name="setup" finished-at="2021-08-20T09:52:34 IST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLengthWebsiteData()[pri:0, instance:PasswordManagerTests.AddCredentialTest@209da20d]" started-at="2021-08-20T09:52:40 IST" name="InvalidLengthWebsiteData" finished-at="2021-08-20T09:52:40 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLengthWebsiteData -->
+        <test-method signature="InvalidPasswordLength()[pri:0, instance:PasswordManagerTests.AddCredentialTest@209da20d]" started-at="2021-08-20T09:52:40 IST" name="InvalidPasswordLength" finished-at="2021-08-20T09:52:41 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPasswordLength -->
+        <test-method signature="InvalidUsernameLength()[pri:0, instance:PasswordManagerTests.AddCredentialTest@209da20d]" started-at="2021-08-20T09:52:41 IST" name="InvalidUsernameLength" finished-at="2021-08-20T09:52:41 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameLength -->
+        <test-method signature="MaxLengthWebsiteData()[pri:0, instance:PasswordManagerTests.AddCredentialTest@209da20d]" started-at="2021-08-20T09:52:41 IST" name="MaxLengthWebsiteData" finished-at="2021-08-20T09:52:41 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxLengthWebsiteData -->
+        <test-method signature="addValidData()[pri:0, instance:PasswordManagerTests.AddCredentialTest@209da20d]" started-at="2021-08-20T09:52:41 IST" name="addValidData" finished-at="2021-08-20T09:52:42 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addValidData -->
+        <test-method signature="emptyWebsiteData()[pri:0, instance:PasswordManagerTests.AddCredentialTest@209da20d]" started-at="2021-08-20T09:52:43 IST" name="emptyWebsiteData" finished-at="2021-08-20T09:52:44 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyWebsiteData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PasswordManagerTests.AddCredentialTest@209da20d]" started-at="2021-08-20T09:52:50 IST" name="tearDown" finished-at="2021-08-20T09:52:50 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PasswordManagerTests.AddCredentialTest -->
+      <class name="PasswordManagerTests.RegistrationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:37 IST" name="setup" finished-at="2021-08-20T09:52:39 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AlreadyExitTest()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:39 IST" name="AlreadyExitTest" finished-at="2021-08-20T09:52:39 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlreadyExitTest -->
+        <test-method signature="Clicktest()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:39 IST" name="Clicktest" finished-at="2021-08-20T09:52:40 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clicktest -->
+        <test-method signature="emptyPasswordFieldTest()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:42 IST" name="emptyPasswordFieldTest" finished-at="2021-08-20T09:52:42 IST" duration-ms="407" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at PasswordManagerTests.RegistrationTest.emptyPasswordFieldTest(RegistrationTest.java:201)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordFieldTest -->
+        <test-method signature="emptyUsernameFieldTest()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:42 IST" name="emptyUsernameFieldTest" finished-at="2021-08-20T09:52:43 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameFieldTest -->
+        <test-method signature="invalidFullnameTest()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:44 IST" name="invalidFullnameTest" finished-at="2021-08-20T09:52:44 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFullnameTest -->
+        <test-method signature="invalidLengthPasswordLengthTest()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:44 IST" name="invalidLengthPasswordLengthTest" finished-at="2021-08-20T09:52:45 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthPasswordLengthTest -->
+        <test-method signature="invalidUserPassTest()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:45 IST" name="invalidUserPassTest" finished-at="2021-08-20T09:52:45 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserPassTest -->
+        <test-method signature="invalidUsernameLengthTest()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:45 IST" name="invalidUsernameLengthTest" finished-at="2021-08-20T09:52:46 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameLengthTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PasswordManagerTests.RegistrationTest@52af26ee]" started-at="2021-08-20T09:52:51 IST" name="tearDown" finished-at="2021-08-20T09:52:52 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PasswordManagerTests.RegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

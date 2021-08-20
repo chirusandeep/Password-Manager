@@ -1,0 +1,10 @@
+com\password\manager\Credential.class
+com\password\manager\DeleteCredentialServlet.class
+com\password\manager\dao\CredentialDAO.class
+com\password\manager\RegisterServlet.class
+com\password\manager\DatabaseConnection.class
+com\password\manager\LoginServlet.class
+com\password\manager\AddCredentialServlet.class
+com\password\manager\dao\UserDAO.class
+com\password\manager\EditCredentialServlet.class
+com\password\manager\LogoutServlet.class
