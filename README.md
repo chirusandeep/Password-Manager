@@ -1,2 +1,2 @@
-# Password-Manager
-A local website which manages your credentials.
+# HCL Password Management System
+A web application which manages your credentials.
