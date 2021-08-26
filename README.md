@@ -26,4 +26,7 @@ A web application which manages your credentials.
 - Extent Report `v3.1.5`
 - java servlet 
 
+Other project on Selenium:
+> https://github.com/chirusandeep/LMS-Automation
+
 ### `We are open to welcome collaborators.`
