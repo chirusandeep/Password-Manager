@@ -28,7 +28,8 @@ https://github.com/chirusandeep/Password-Manager/blob/main/ManualTesting.xlsx
 - TestNG `v7.4.0`
 - Selenium `v3.141.59`
 - Extent Report `v3.1.5`
-- java servlet 
+- Java servlet 
+- Log4j `v1.2.17`
 
 Other project on Selenium:
 > https://github.com/chirusandeep/LMS-Automation
