@@ -3,6 +3,10 @@ package PasswordManagerTests;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -13,14 +17,18 @@ import PasswordManagerPageObjects.AddCredentialPage;
 import PasswordManagerPageObjects.LoginPage;
 import TestSuiteOnExtentReport.BeforeAfterSuiteRepresent;
 
+
+
 public class AddCredentialTest extends BeforeAfterSuiteRepresent{
 
 	WebDriver driver;
 	LoginPage loginpage = new LoginPage();
 	AddCredentialPage addcred = new AddCredentialPage();
+    public static final Logger logger = LogManager.getLogger(AddCredentialTest.class.getName());
 	
 	@BeforeTest
 	public void setup() {
+		PropertyConfigurator.configure("log4j.properties");       
 		driver = new ChromeDriver();
 		loginpage.driverSet(driver);
 		loginpage.url();
@@ -34,6 +42,7 @@ public class AddCredentialTest extends BeforeAfterSuiteRepresent{
 	//Test Case 1: Adding Valid Data
 	@Test
 	public void addValidData() {
+
 		test = extent.createTest("Add Credential: Adding valid data","Description: Adding valid data in fields.");
 		addcred.website("http://gmail.com");
 		test.log(Status.INFO, "Website URL Entered into field.");
@@ -45,10 +54,14 @@ public class AddCredentialTest extends BeforeAfterSuiteRepresent{
 		String message = addcred.message();
 		if(message.equals("Credential Added successfull!")) {
 			test.log(Status.PASS, "Added valid data credentials.");
+			logger.info("Added Valid Data !!!");
 			assertEquals(message, "Credential Added successfull!");
+			
 		}else {
 			test.log(Status.FAIL,"Unable to add valid data credentials.");
+			logger.error("Valid data not added !!!");
 			assertTrue(false);
+	    	
 		}
 		
 		
@@ -67,10 +80,14 @@ public class AddCredentialTest extends BeforeAfterSuiteRepresent{
 		String message = addcred.message();
 		if(message.equals("Credential Failed to add!")) {
 			test.log(Status.PASS, "Unable to add empty data on Website field.");
+			logger.info("Empty Website Data passed!!!");
 			assertEquals(message, "Credential Failed to add!");
+			
 		}else {
 			test.log(Status.FAIL,"Empty Website data accepted.");
+			logger.error("Empty Website Data not passed!!!");
 			assertTrue(false);
+			
 		}
 		
 		
@@ -89,10 +106,14 @@ public class AddCredentialTest extends BeforeAfterSuiteRepresent{
 		String message = addcred.message();
 		if(message.equals("Credential Added successfull!")) {
 			test.log(Status.PASS, "Added valid data credentials.");
+			logger.info("Maximum Length Website Data test passed !!!");
 			assertEquals(message, "Credential Added successfull!");
+			
 		}else {
 			test.log(Status.FAIL,"Unable to add valid data credentials.");
+			logger.error("Maximum Length Website Data test not passed !!!");
 			assertTrue(false);
+			
 		}
 		
 	}
@@ -110,10 +131,14 @@ public class AddCredentialTest extends BeforeAfterSuiteRepresent{
 		String message = addcred.message();
 		if(message.equals("Website length should be below 40!")) {
 			test.log(Status.PASS, "Lenght error message is displayed.");
+			logger.info("Invalid Length Website Data passed !!!");
 			assertEquals(message, "Website length should be below 40!");
+			
 		}else {
 			test.log(Status.FAIL,"Accepts more than 40 characters.");
+			logger.error("Invalid Length Website Data not passed !!!");
 			assertTrue(false);
+			
 		}
 		
 		
@@ -132,10 +157,14 @@ public class AddCredentialTest extends BeforeAfterSuiteRepresent{
 		String message = addcred.message();
 		if(message.equals("Username length should be below 60!")) {
 			test.log(Status.PASS, "Lenght error message is displayed.");
+			logger.info("Invalid Username Length passed !!!");
 			assertEquals(message, "Username length should be below 60!");
+			
 		}else {
 			test.log(Status.FAIL,"Accepts more than 60 characters.");
+			logger.error("Invalid Username Length not passed !!!");
 			assertTrue(false);
+			
 		}
 		
 		
@@ -154,10 +183,14 @@ public class AddCredentialTest extends BeforeAfterSuiteRepresent{
 		String message = addcred.message();
 		if(message.equals("Password length should be below 60!")) {
 			test.log(Status.PASS, "Lenght error message is displayed.");
+			logger.info("Invalid Password Length passed !!!");
 			assertEquals(message, "Password length should be below 60!");
+			
 		}else {
 			test.log(Status.FAIL,"Accepts more than 60 characters.");
+			logger.error("Invalid Password Length not passed !!!");
 			assertTrue(false);
+			
 		}
 		
 		

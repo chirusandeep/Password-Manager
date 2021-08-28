@@ -2,33 +2,27 @@ package PasswordManagerTests;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-
 import TestSuiteOnExtentReport.BeforeAfterSuiteRepresent;
 
 public class LoginTest extends BeforeAfterSuiteRepresent{
 
-//    public static ExtentHtmlReporter htmlReporter;
-//    public static ExtentReports extent;
-//    public static ExtentTest test;
+
 	WebDriver driver;
-	
+	public static final Logger logger = LogManager.getLogger(LoginTest.class.getName());
 	@BeforeTest
 	public void setup() {
-//		 htmlReporter = new ExtentHtmlReporter("login-report.html");
-//	     extent = new ExtentReports();
-//	     extent.attachReporter(htmlReporter);      
+
+		PropertyConfigurator.configure("log4j.properties");  
 		driver = new ChromeDriver();
 		driver.get("http://localhost:8085/PasswordManager/login.jsp");
 	}
@@ -44,10 +38,14 @@ public class LoginTest extends BeforeAfterSuiteRepresent{
 		boolean click = driver.findElement(By.id("signin")).isEnabled();
 		if(click) {
 			test.log(Status.PASS, "Click button enabled!");
+			logger.info("Click Test passed !!!");
 			assertTrue(true);
+			
 		}else {
 			test.log(Status.FAIL, "Click button disabled!");
+			logger.info("Click Test not passed !!!");
 			assertTrue(false);
+			
 		}
 		
 	}
@@ -64,10 +62,14 @@ public class LoginTest extends BeforeAfterSuiteRepresent{
 		String invalidMessage = driver.findElement(By.id("message")).getText();
 		if(invalidMessage.equals("Invalid username/password!")) {
 			test.log(Status.PASS, "Invalid Username test passed.");
+			logger.info("Invalid Username Test passed !!!");
 			assertEquals(invalidMessage, "Invalid username/password!");
+			
 		}else {
 			test.log(Status.FAIL,"Invalid username test failed!");
+			logger.error("Invalid Username Test not passed !!!");
 			assertTrue(false);
+			
 		}
 		
 	}
@@ -84,10 +86,14 @@ public class LoginTest extends BeforeAfterSuiteRepresent{
 		
 		if(invalidMessage.equals("Invalid username/password!")) {
 			test.log(Status.PASS, "Invalid password test passed.");
+			logger.info("Invalid Password Test passed !!!");
 			assertEquals(invalidMessage, "Invalid username/password!");
+			
 		}else {
 			test.log(Status.FAIL,"Invalid password test failed!");
+			logger.error("Invalid Password Test not passed !!!");
 			assertTrue(false);
+			
 		}
 	}
 //	Test case 4: Empty Username Field Test
@@ -104,10 +110,14 @@ public class LoginTest extends BeforeAfterSuiteRepresent{
 		
 		if(invalidMessage.equals("Invalid username/password!")) {
 			test.log(Status.PASS, "Invalid password test passed.");
+			logger.info("Empty Username Field Test passed !!!");
 			assertEquals(invalidMessage, "Invalid username/password!");
-		}else {
+			
+		}else { 
 			test.log(Status.FAIL,"Invalid password test failed!");
+			logger.error("Empty Username Field Test not passed !!!");
 			assertTrue(false);
+			
 		}
 	}
 //	Test case 5: Empty Password Field Test
@@ -123,10 +133,14 @@ public class LoginTest extends BeforeAfterSuiteRepresent{
 		String invalidMessage = driver.findElement(By.id("message")).getText();
 		if(invalidMessage.equals("Invalid username/password!")) {
 			test.log(Status.PASS, "Invalid password test passed.");
+			logger.info("Empty Password Field Test passed !!!");
 			assertEquals(invalidMessage, "Invalid username/password!");
+			
 		}else {
 			test.log(Status.FAIL,"Invalid password test failed!");
+			logger.error("Empty Password Field Test not passed !!!");
 			assertTrue(false);
+			
 		}
 	}
 	@AfterTest

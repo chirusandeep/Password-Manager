@@ -1,0 +1,25 @@
+28-8-2021 02:01:21 [TestNG-tests-1]   INFO PasswordManagerTests.RegistrationTest:Already Exit Test passed !!!
+28-8-2021 02:01:21 [TestNG-tests-1]   INFO PasswordManagerTests.LoginTest:Click Test passed !!!
+28-8-2021 02:01:21 [TestNG-tests-1]   INFO PasswordManagerTests.RegistrationTest:Click Test passed !!!
+28-8-2021 02:01:22 [TestNG-tests-1]   INFO PasswordManagerTests.AddCredentialTest:Invalid Length Website Data passed !!!
+28-8-2021 02:01:22 [TestNG-tests-1]   INFO PasswordManagerTests.AddCredentialTest:Invalid Password Length passed !!!
+28-8-2021 02:01:22 [TestNG-tests-1]   INFO PasswordManagerTests.AddCredentialTest:Invalid Username Length passed !!!
+28-8-2021 02:01:23 [TestNG-tests-1]   INFO PasswordManagerTests.AddCredentialTest:Maximum Length Website Data test passed !!!
+28-8-2021 02:01:23 [TestNG-tests-1]   INFO PasswordManagerTests.AddCredentialTest:Added Valid Data !!!
+28-8-2021 02:01:23 [TestNG-tests-1]  ERROR PasswordManagerTests.RegistrationTest:Empty Password Field Test not passed !!!
+28-8-2021 02:01:24 [TestNG-tests-1]   INFO PasswordManagerTests.LoginTest:Empty Password Field Test passed !!!
+28-8-2021 02:01:24 [TestNG-tests-1]   INFO PasswordManagerTests.RegistrationTest:Empty Username Field Test passed !!!
+28-8-2021 02:01:24 [TestNG-tests-1]   INFO PasswordManagerTests.LoginTest:Empty Username Field Test passed !!!
+28-8-2021 02:01:25 [TestNG-tests-1]   INFO PasswordManagerTests.AddCredentialTest:Empty Website Data passed!!!
+28-8-2021 02:01:25 [TestNG-tests-1]   INFO PasswordManagerTests.RegistrationTest:Invalid Fullname Test passed !!!
+28-8-2021 02:01:25 [TestNG-tests-1]   INFO PasswordManagerTests.RegistrationTest:Invalid password Length Test passed !!!
+28-8-2021 02:01:26 [TestNG-tests-1]   INFO PasswordManagerTests.LoginTest:Invalid Password Test passed !!!
+28-8-2021 02:01:26 [TestNG-tests-1]   INFO PasswordManagerTests.RegistrationTest:Invalid Fullname Test passed !!!
+28-8-2021 02:01:26 [TestNG-tests-1]   INFO PasswordManagerTests.RegistrationTest:Invalid Username Length Test passed !!!
+28-8-2021 02:01:27 [TestNG-tests-1]   INFO PasswordManagerTests.LoginTest:Invalid Username Test passed !!!
+28-8-2021 02:01:27 [TestNG-tests-1]   INFO PasswordManagerTests.EditCredentialTest:Max Length Website Data passed !!!
+28-8-2021 02:01:28 [TestNG-tests-1]   INFO PasswordManagerTests.EditCredentialTest:Exceed Length Website Data passed !!!
+28-8-2021 02:01:28 [TestNG-tests-1]   INFO PasswordManagerTests.EditCredentialTest:Update Website Data passed !!!
+28-8-2021 02:01:29 [TestNG-tests-1]   INFO PasswordManagerTests.EditCredentialTest:Update Username Data passed !!!
+28-8-2021 02:01:29 [TestNG-tests-1]   INFO PasswordManagerTests.EditCredentialTest:Update Password Data passed !!!
+28-8-2021 02:01:30 [TestNG-tests-1]   INFO PasswordManagerTests.EditCredentialTest:Update Website URL data passed !!!
